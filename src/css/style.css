@@ -106,6 +106,70 @@ body {
     background: var(--color-primary-dark);
 }
 
+.hero {
+    background-image: ;
+}
+
+.altcolor {
+    color: var(--color-primary)
+}
+
+.waarwevoorstaan h1 {
+    text-align: center;
+}
+
+.boxes {
+    display: flex;
+}
+
+.boxes div {
+    margin: 10px;
+    padding: 9px 18px;
+    border-radius: 10px;
+    background-color: var(--color-primary-light);
+    font-weight: bold;
+    width: 30%;
+}
+
+.boxes h2 {
+    color: var(--color-primary-dark);
+}
+
+.dots {
+    background-color: var(--color-primary);
+    color: white;
+}
+
+.reviews {
+    background-color: var(--color-primary-light);
+    text-align: center;
+}
+
+.reviews p {
+    color: gray;
+}
+
+.reviews .btn {
+    color: var(--color-primary-dark);
+    background: var(--color-primary-light);
+    outline: solid 2px var(--color-primary-dark);
+}
+
+.contact {
+    background-color: black;
+    text-align: center;
+    color: var(--color-primary);
+}
+
+.contact h1 {
+    color: white;
+}
+
+.contact .btn {
+    color: var(--color-primary);
+    background: white;
+}
+
 /* Mobile menu toggle, werkt zonder JavaScript via een checkbox */
 .nav-toggle {
     display: none;
