@@ -1,0 +1,11 @@
+{
+  "name": "circle-solutions",
+  "private": true,
+  "scripts": {
+    "dev": "vite"
+  },
+  "devDependencies": {
+    "vite": "latest",
+    "vite-plugin-full-reload": "latest"
+  }
+}
