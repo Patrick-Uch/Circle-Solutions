@@ -1,0 +1,384 @@
+/* Alleen voor de oplossingen pagina. Kleuren komen uit style.css */
+
+/* Titels boven de secties */
+.section-label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--color-primary);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.section-title {
+    margin: 0 0 12px;
+    font-size: 28px;
+    text-align: center;
+}
+
+.section-subtitle {
+    margin: 0 0 32px;
+    font-size: 14px;
+    color: var(--color-primary-dark);
+    text-align: center;
+}
+
+/* Hero: foto als achtergrond met een kaart erop */
+.solutions-hero {
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-height: 400px;
+    padding: 64px 0;
+    overflow: hidden;
+}
+
+.solutions-hero-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Boven de foto zetten */
+.solutions-hero .container {
+    position: relative;
+    width: 100%;
+}
+
+/* Half doorzichtig, de foto erachter wordt wazig */
+.solutions-hero-card {
+    max-width: 460px;
+    padding: 32px;
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(8px);
+    border-radius: 8px;
+}
+
+.solutions-hero h1 {
+    margin: 0 0 16px;
+    font-size: 40px;
+}
+
+.solutions-hero p {
+    margin: 0;
+    line-height: 1.6;
+}
+
+/* Onze oplossingen */
+.solutions {
+    padding: 80px 0;
+}
+
+.solutions-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    margin-top: 40px;
+}
+
+.solution-card {
+    padding: 28px;
+    background: var(--color-primary-light);
+    border-radius: 8px;
+}
+
+/* Wit icoontje op een blauw vlakje */
+.solution-icon {
+    display: block;
+    width: 48px;
+    height: 48px;
+    padding: 10px;
+    margin-bottom: 16px;
+    object-fit: contain;
+    background: var(--color-primary);
+    border-radius: 8px;
+}
+
+.solution-card h3 {
+    margin: 0 0 8px;
+    font-size: 18px;
+    color: var(--color-primary-dark);
+}
+
+.solution-card p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* D.O.T.S. */
+.dots-section {
+    padding: 80px 0;
+    color: var(--color-white);
+    background: var(--color-primary);
+}
+
+.dots-section .container {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+.dots-text {
+    flex: 1;
+}
+
+.dots-section h2 {
+    margin: 0 0 16px;
+    font-size: 32px;
+}
+
+.dots-section p {
+    max-width: 460px;
+    line-height: 1.6;
+}
+
+.dots-img {
+    flex: 1;
+    min-width: 0;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/* Cases */
+.projects {
+    padding: 80px 0;
+}
+
+/* Filter zonder JavaScript: een label klikt de verborgen radio button aan */
+.filter-input {
+    display: none;
+}
+
+.filter-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 40px;
+}
+
+.filter-btn {
+    padding: 8px 16px;
+    font-size: 13px;
+    border: 1px solid var(--color-primary);
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+}
+
+/* Gekozen filter blauw maken */
+#filter-alle:checked ~ .filter-buttons .filter-btn-alle,
+#filter-maatwerk:checked ~ .filter-buttons .filter-btn-maatwerk,
+#filter-proces:checked ~ .filter-buttons .filter-btn-proces,
+#filter-web:checked ~ .filter-buttons .filter-btn-web {
+    color: var(--color-white);
+    background: var(--color-primary);
+}
+
+/* Projecten zonder de gekozen tag verbergen */
+#filter-maatwerk:checked ~ .projects-grid .project-card:not([data-tags~="maatwerk"]),
+#filter-proces:checked ~ .projects-grid .project-card:not([data-tags~="proces"]),
+#filter-web:checked ~ .projects-grid .project-card:not([data-tags~="web"]) {
+    display: none;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.project-card {
+    overflow: hidden;
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+}
+
+.project-img {
+    display: block;
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.project-body {
+    padding: 20px;
+}
+
+.project-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.project-tag {
+    padding: 4px 10px;
+    font-size: 11px;
+    color: var(--color-primary-dark);
+    background: var(--color-primary-light);
+    border-radius: 12px;
+}
+
+.project-body h3 {
+    margin: 16px 0 8px;
+    font-size: 17px;
+}
+
+.project-body p {
+    margin: 0 0 16px;
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+/* Knop die eruitziet als een link */
+.project-link {
+    padding: 0;
+    font-family: inherit;
+    font-size: 13px;
+    color: var(--color-primary);
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.project-link:hover {
+    color: var(--color-primary-dark);
+}
+
+/* Project modal, de browser zet hem zelf in het midden */
+.project-modal {
+    width: 90%;
+    max-width: 640px;
+    max-height: 85vh;
+    padding: 0;
+    overflow-y: auto;
+    color: var(--color-text);
+    border: none;
+    border-radius: 8px;
+}
+
+/* Donkere laag achter de modal */
+.project-modal::backdrop {
+    background: rgba(31, 42, 48, 0.6);
+}
+
+/* Sluitknop rechtsboven op de foto */
+.project-modal-close {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    width: 36px;
+    height: 36px;
+    font-size: 22px;
+    line-height: 1;
+    color: var(--color-text);
+    background: var(--color-white);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.project-modal-close:hover {
+    background: var(--color-primary-light);
+}
+
+.project-modal-img {
+    display: block;
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+}
+
+.project-modal-body {
+    padding: 28px;
+}
+
+.project-modal h3 {
+    margin: 16px 0;
+    font-size: 22px;
+}
+
+.project-modal h4 {
+    margin: 20px 0 6px;
+    font-size: 15px;
+    color: var(--color-primary-dark);
+}
+
+.project-modal p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.project-modal .btn {
+    display: inline-block;
+    margin-top: 24px;
+}
+
+/* Whitepaper balk */
+.whitepaper {
+    padding: 56px 0;
+    background: var(--color-primary-light);
+}
+
+.whitepaper .container {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+/* Hele afbeelding tonen, niet bijsnijden */
+.whitepaper-img {
+    width: 160px;
+    height: auto;
+    flex-shrink: 0;
+    border-radius: 8px;
+}
+
+.whitepaper-text {
+    flex: 1;
+}
+
+.whitepaper h2 {
+    margin: 0 0 8px;
+    font-size: 24px;
+}
+
+.whitepaper p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* Tablet */
+@media (max-width: 960px) {
+    .solutions-grid,
+    .projects-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .dots-section .container {
+        flex-direction: column;
+        align-items: stretch;
+    }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+    .solutions-grid,
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .whitepaper .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
