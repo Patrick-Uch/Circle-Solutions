@@ -5,6 +5,7 @@ include __DIR__ . '/src/components/head.php';
 ?>
 <body>
     <?php include __DIR__ . '/src/components/navbar.php'; ?>
+    <link rel="stylesheet" href="/src/css/index.css">
 
     <main class="page-content">
         <div class="container">
@@ -19,23 +20,29 @@ include __DIR__ . '/src/components/head.php';
                 <br>
                 <div class="boxes">
                     <div>
+                        <img src="/src/img/index/leaf.svg" alt=" Eenvoud">
                         <h2>Eenvoud</h2>
                         <p>Geen overbodige functies of ingewikkelde systemen. Alleen wat echt nodig is.</p>
                     </div>
                     <div>
+                        <img src="/src/img/index/shield.svg" alt="Vertrouwen">
                         <h2>Vertrouwen</h2>
                         <p>Betrouwbare oplossingen waar je dagelijks op kunt bouwen.</p>
                     </div>
                     <div>
+                        <img src="/src/img/index/settings.svg" alt="Functionaliteit">
                         <h2>Functionaliteit</h2>
                         <p>Software die aansluit op jouw processen en bijdraagt aan efficiëntie.</p>
                     </div>
                 </div>
             </div>
             <div class="dots">
-                <h1>D.O.T.S.</h1>
-                <p>Circle D.O.T.S. is ons modulaire platform waarmee bedrijven hun interne processen stroomlijnen: flexibel, schaalbaar en op maat.</p>
-                <a href="/src/pages/oplossingen.php" class="btn">Meer over oplossingen -></a>
+                <img src="/src/img/index/dots.png" alt="D.O.T.S.">
+                <div class="dots-container">
+                    <h1>D.O.T.S.</h1>
+                    <p>Circle D.O.T.S. is ons modulaire platform waarmee bedrijven hun interne processen stroomlijnen: flexibel, schaalbaar en op maat.</p>
+                    <a href="/src/pages/oplossingen.php">Meer over oplossingen -></a>
+                </div>
             </div>
             <div class="reviews">
                 <h1>"Dankzij Circle Solutions lopen onze systemen soepel."</h1>
