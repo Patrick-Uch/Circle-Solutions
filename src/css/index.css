@@ -1,13 +1,37 @@
-.container {
+.main .container {
     max-width: 100%;
 }
 
 .hero {
-    background-image: url("/src/img/index/hero.png");
+    position: relative;
+    height: 650px;
+    overflow: hidden;
+}
+
+.hero .container {
+    position: relative;
+    padding: 180px 200px;
+    scale: 1.5;
+}
+
+.hero img {
+    position: absolute;
+    width: 125%;
+    height: 95%;
+    object-fit: cover;
 }
 
 .altcolor {
     color: var(--color-primary)
+}
+
+.waarwevoorstaan {
+    height: 400px;
+}
+
+.waarwevoorstaan .container {
+    display: flex;
+    align-items: center;
 }
 
 .waarwevoorstaan h1 {
@@ -16,7 +40,6 @@
 
 .boxes {
     display: flex;
-    padding: 30px 50px;
 }
 
 .boxes div {
@@ -25,7 +48,7 @@
     border-radius: 10px;
     background-color: var(--color-primary-light);
     font-weight: bold;
-    width: 33%;
+    width: 375px;
 }
 
 .boxes h2 {
@@ -44,17 +67,19 @@
     color: white;
     display: flex;
     align-items: center;
-    gap: 50px;
+    justify-content: center;
+    height: 500px;
 }
 
 .dots-container {
     width: 30%;
+    padding: 0 0 0 50px;
 }
 
 .dots img {
     object-fit: cover;
-    width: 40%;
-    height: 50%;
+    width: 55%;
+    height: 90%;
     padding: 50px;
     border-radius: 60px;
 }
@@ -62,6 +87,13 @@
 .reviews {
     background-color: var(--color-primary-light);
     text-align: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.reviews .container {
+    width: 600px;
 }
 
 .reviews p {
@@ -75,9 +107,12 @@
 }
 
 .contact {
-    background-color: black;
+    background-color: var(--color-text);
     text-align: center;
     color: var(--color-primary);
+    height: 300px;
+    display: flex;
+    align-items: center;
 }
 
 .contact h1 {
@@ -87,4 +122,8 @@
 .contact .btn {
     color: var(--color-primary);
     background: white;
+}
+
+.contact .container {
+    width: 800px;
 }
