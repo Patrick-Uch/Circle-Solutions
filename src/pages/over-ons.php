@@ -17,8 +17,32 @@ include __DIR__ . '/../components/head.php';
             </div>
         </section>
         <section class="visieenmissie">
-            <h1>Visie</h1>
-            <div class="container">
+            <div class="visieenmissie-text">
+                <div class="container">
+                    <h2>Visie</h2>
+                    <p>Wij geloven dat technologie mensen moeten ontzorgen. Onze visie is een wereld waarin software intuïtief aanvoelt, zodat bedrijven kunnen focussen op wat écht telt.</p>
+                </div>
+                <div class="container">
+                    <h2>Missie</h2>
+                    <p>Praktische, betrouwbare maatwerksoftware bouwen die aansluit op de dagelijkse praktijk van onze klanten: eenvoudig te gebruiken, zonder overbodige franje.</p>
+                </div>
+            </div>
+            <div class="waaromhoewat">    
+                <div class="container">
+                    <img src="/src/img/over-ons/icons/target.svg" alt="Waarom">
+                    <h2>Waarom</h2>
+                    <p>Wij vinden dat dagelijkse taken probleemloos moeten verlopen.</p>
+                </div>
+                <div class="container">
+                    <img src="/src/img/over-ons/icons/settings.svg" alt="Hoe">
+                    <h2>Hoe</h2>
+                    <p>Door software te ontwikkelen die het leven makkelijker maakt.</p>
+                </div>
+                <div class="container">
+                    <img src="/src/img/over-ons/icons/package.svg" alt="Wat">
+                    <h2>Wat</h2>
+                    <p>Softwareoplossingen die passen bij het individuele bedrijf.</p>
+                </div>
             </div>
         </section>
         <section class="kernwaarden">
@@ -27,17 +51,17 @@ include __DIR__ . '/../components/head.php';
             <div class="container">
                 <div class="boxes">
                     <div>
-                        <img src="/src/img/index/icons/leaf.svg" alt="Eenvoud">
+                        <img src="/src/img/over-ons/icons/leaf.svg" alt="Eenvoud">
                         <h2>Eenvoud</h2>
                         <p>We laten weg wat niet nodig is, zodat overblijft wat werkt.</p>
                     </div>
                     <div>
-                        <img src="/src/img/index/icons/shield.svg" alt="Vertrouwen">
+                        <img src="/src/img/over-ons/icons/shield.svg" alt="Vertrouwen">
                         <h2>Vertrouwen</h2>
                         <p>We bouwen langdurige relaties op basis van kwaliteit en duidelijkheid.</p>
                     </div>
                     <div>
-                        <img src="/src/img/index/icons/settings.svg" alt="Functionaliteit">
+                        <img src="/src/img/over-ons/icons/settings.svg" alt="Functionaliteit">
                         <h2>Functionaliteit</h2>
                         <p>Elke functie heeft een doel en sluit aan op de praktijk van de gebruiker.</p>
                     </div>

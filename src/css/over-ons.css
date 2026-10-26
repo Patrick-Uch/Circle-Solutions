@@ -32,6 +32,38 @@
     object-fit: cover;
 }
 
+.visieenmissie-text {
+    display: flex;
+    justify-content: center;
+}
+
+.visieenmissie-text .container {
+    width: 600px;
+    color: grey;
+}
+
+.visieenmissie h2 {
+    color: var(--color-primary);
+    margin: 0;
+}
+
+.visieenmissie img {
+    background-color: var(--color-primary);
+    padding: 15px;
+    border-radius: 50px;
+}
+
+.waaromhoewat {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: grey;
+}
+
+.waaromhoewat .container {
+    width: 300px;
+}
+
 .kernwaarden {
     height: 400px;
     background-color: var(--color-primary-light);
