@@ -42,5 +42,129 @@
 }
 
 .faq {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    gap: 40px;
+    padding: 60px 60px;
     background: var(--color-primary-light);
+}
+
+.faq-text {
+    max-width: 480px;
+}
+
+.faq-text h3 {
+    font-size: 14px;
+    color: var(--color-primary);
+    font-style: italic;
+    margin-bottom: 6px;
+}
+
+.faq-text h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.faq-text p {
+    font-size: 16px;
+    line-height: 1.7;
+    color: var(--color-text);
+}
+
+.faq-questions {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.faq-questions details {
+    background: #fff;
+    border: 1px solid #dce4e9;
+    border-radius: 12px;
+    padding: 18px 20px;
+    transition: border-color 0.2s ease;
+}
+
+
+
+.faq-questions summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    cursor: pointer;
+    list-style: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--color-text);
+}
+
+.faq-questions details p {
+    padding-top: 16px;
+    border-top: 1px solid #edf0f2;
+    color: var(--color-text);
+    font-size: 15px;
+}
+
+.faq-questions summary::after {
+    content: "";
+    width: 9px;
+    height: 9px;
+    flex-shrink: 0;
+    border-right: 2px solid var(--color-primary-dark);
+    border-bottom: 2px solid var(--color-primary-dark);
+    transform: rotate(45deg);
+    transition: transform 0.2s ease;
+}
+
+.faq-questions details:hover,
+.faq-questions details[open] {
+    border-color: var(--color-primary-dark);
+}
+
+.faq-questions details[open] summary::after {
+    transform: rotate(225deg);
+}
+
+@media (max-width: 768px) {
+    .faq {
+        grid-template-columns: 1fr;
+        gap: 32px;
+        padding: 40px 20px;
+    }
+
+    .faq-text h2 {
+        font-size: 28px;
+    }
+
+    .faq-questions details {
+        padding: 18px 20px;
+    }
+
+    .faq-questions summary {
+        font-size: 15px;
+    }
+}
+
+
+@media (max-width: 425px) {
+
+    .contact-hero-card {
+        margin-left: 0;
+        max-width: 100%;
+    }
+
+    .contact-hero h1 {
+        margin: 0 0 16px;
+        font-size: 30px;
+    }
+
+    .contact-hero p {
+        margin: 0;
+        line-height: 1.6;
+        color: var(--color-primary-dark);
+    }
 }
