@@ -2,10 +2,6 @@
     max-width: 100%;
 }
 
-.altcolor {
-    color: var(--color-primary)
-}
-
 .hero {
     position: relative;
     height: 400px;
@@ -25,6 +21,10 @@
     width: 320px;
 }
 
+.hero .container-text p {
+    color: var(--color-primary)
+}
+
 .hero img {
     position: absolute;
     width: 100%;
@@ -34,6 +34,7 @@
 
 .kernwaarden {
     height: 400px;
+    background-color: var(--color-primary-light);
 }
 
 .kernwaarden .container {
@@ -51,21 +52,21 @@
 
 .boxes div {
     margin: 10px;
-    padding: 9px 18px;
-    border-radius: 10px;
-    background-color: var(--color-primary-light);
+    padding: 20px 25px;
+    border-radius: 20px;
+    background-color: white;
     font-weight: bold;
-    width: 375px;
+    width: 350px;
 }
 
 .boxes h2 {
     color: var(--color-primary-dark);
+    margin: 0;
 }
 
 .boxes img {
-    scale: 80%;
     background-color: var(--color-primary);
-    padding: 20px;
+    padding: 15px;
     border-radius: 10px;
 }
 

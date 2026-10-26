@@ -12,7 +12,7 @@ include __DIR__ . '/../components/head.php';
             <div class="container">
                 <div class="container-text">
                     <h1>Over ons</h1>
-                    <p class="altcolor">Sinds 2005 bouwen we aan software die processen simpeler maakt, niet ingewikkelder.</p>
+                    <p>Sinds 2005 bouwen we aan software die processen simpeler maakt, niet ingewikkelder.</p>
                 </div>
             </div>
         </section>
@@ -23,22 +23,24 @@ include __DIR__ . '/../components/head.php';
         </section>
         <section class="kernwaarden">
             <h1>Onze kernwaarden</h1>
+            <br>
             <div class="container">
                 <div class="boxes">
-                <div>
-                     <img src="/src/img/index/icons/leaf.svg" alt="Eenvoud">
-                     <h2>Eenvoud</h2>
-                     <p>Geen overbodige functies of ingewikkelde systemen. Alleen wat nodig is.</p>
-                </div>
-                <div>
-                     <img src="/src/img/index/icons/shield.svg" alt="Vertrouwen">
-                     <h2>Vertrouwen</h2>
-                     <p>Betrouwbare oplossingen waar je dagelijks op kunt bouwen.</p>
-                </div>
-                <div>
-                     <img src="/src/img/index/icons/settings.svg" alt="Functionaliteit">
-                     <h2>Functionaliteit</h2>
-                     <p>Software die aansluit op jouw processen en bijdraagt aan efficiëntie.</p>
+                    <div>
+                        <img src="/src/img/index/icons/leaf.svg" alt="Eenvoud">
+                        <h2>Eenvoud</h2>
+                        <p>We laten weg wat niet nodig is, zodat overblijft wat werkt.</p>
+                    </div>
+                    <div>
+                        <img src="/src/img/index/icons/shield.svg" alt="Vertrouwen">
+                        <h2>Vertrouwen</h2>
+                        <p>We bouwen langdurige relaties op basis van kwaliteit en duidelijkheid.</p>
+                    </div>
+                    <div>
+                        <img src="/src/img/index/icons/settings.svg" alt="Functionaliteit">
+                        <h2>Functionaliteit</h2>
+                        <p>Elke functie heeft een doel en sluit aan op de praktijk van de gebruiker.</p>
+                    </div>
                 </div>
             </div>
         </section>
