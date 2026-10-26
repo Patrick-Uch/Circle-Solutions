@@ -7,7 +7,6 @@ include __DIR__ . '/../components/head.php';
 
 <body>
     <?php include __DIR__ . '/../components/navbar.php'; ?>
-
     <main class="">
         <section class="contact-hero">
             <img src="../img/contact/hero.png" alt="">
@@ -19,10 +18,10 @@ include __DIR__ . '/../components/head.php';
             </div>
         </section>
         <section class="contact-info">
-            <div class="container">
-                <h2>Contactinformatie</h2>
-                <p>Heb je vragen of opmerkingen? Neem contact met ons op via de volgende kanalen:</p>
+            <div class="contact-info">
+                <h2>Direct contact</h2>
             </div>
+            <div></div>
         </section>
         <section class="faq">
             <div class="faq-text">
