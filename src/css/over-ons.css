@@ -1,0 +1,62 @@
+.main .container {
+    max-width: 100%;
+}
+
+.kernwaarden {
+    height: 400px;
+}
+
+.kernwaarden .container {
+    display: flex;
+    align-items: center;
+}
+
+.kernwaarden h1 {
+    text-align: center;
+}
+
+.boxes {
+    display: flex;
+}
+
+.boxes div {
+    margin: 10px;
+    padding: 9px 18px;
+    border-radius: 10px;
+    background-color: var(--color-primary-light);
+    font-weight: bold;
+    width: 375px;
+}
+
+.boxes h2 {
+    color: var(--color-primary-dark);
+}
+
+.boxes img {
+    scale: 80%;
+    background-color: var(--color-primary);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.contact {
+    background-color: var(--color-text);
+    text-align: center;
+    color: var(--color-primary);
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.contact h1 {
+    color: white;
+}
+
+.contact .btn {
+    color: var(--color-primary);
+    background: white;
+}
+
+.contact .container {
+    width: 800px;
+}
