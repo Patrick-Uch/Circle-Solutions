@@ -6,7 +6,7 @@ include __DIR__ . '/src/components/head.php';
 <body>
     <?php include __DIR__ . '/src/components/navbar.php'; ?>
     <link rel="stylesheet" href="/src/css/index.css">
-    <main class="page-content">
+    <main>
         <section class="hero">
             <img src="/src/img/index/hero.png" alt="Just connect the dots">
             <div class="container">
