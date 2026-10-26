@@ -78,8 +78,16 @@ include __DIR__ . '/../components/head.php';
             </div>
         </section>
         <section class="team">
-            <h1>Maak kennis met het team</h1>
             <div class="container">
+                <h3>ONS TEAM</h3>
+                <h1>Maak kennis met het team</h1>
+                <p>De mensen achter Circle Solutions: samen verbinden we de puntjes.</p>
+            </div>
+            <div class="team-photos">
+                <img src="/src/img/over-ons/team/ceo.png" alt="CEO">
+                <img src="/src/img/over-ons/team/it-manager.png" alt="IT Manager">
+                <img src="/src/img/over-ons/team/development-lead.png" alt="Development lead">
+                <img src="/src/img/over-ons/team/ux-designer.png" alt="UX Designer">
             </div>
         </section>
         <section class="contact">

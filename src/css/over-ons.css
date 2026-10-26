@@ -120,6 +120,31 @@
     max-width: 750px;
 }
 
+.team {
+    height: 600px;
+    text-align: center;
+}
+
+.team p {
+    color: gray;
+}
+
+.team h3 {
+    color: var(--color-primary);
+}
+
+.team-photos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.team img {
+    width: 15%;
+    height: 15%;
+    border-radius: 20px;
+}
+
 .contact {
     background-color: var(--color-text);
     text-align: center;
