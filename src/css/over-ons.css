@@ -102,6 +102,24 @@
     border-radius: 10px;
 }
 
+.geschiedenis {
+    height: 400px;
+    background-color: var(--color-primary);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.geschiedenis img {
+    object-fit: cover;
+    width: 45%;
+    height: 90%;
+    padding: 50px;
+    margin: 0 0 0 50px;
+    border-radius: 60px;
+    max-width: 750px;
+}
+
 .contact {
     background-color: var(--color-text);
     text-align: center;

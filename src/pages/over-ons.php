@@ -69,8 +69,12 @@ include __DIR__ . '/../components/head.php';
             </div>
         </section>
         <section class="geschiedenis">
-            <h1>Onze geschiedenis</h1>
+            <img src="/src/img/over-ons/kantoor.png" alt="Kantoor">
             <div class="container">
+                <h1>Onze geschiedenis</h1>
+                <p><b>In 2005</b> richtten Raymond Jacobs en Elleke Smit Circle Solutions op vanuit een klein kantoor in Amersfoort. Wat begon met maatwerksoftware voor de logistieke sector, groeide uit tot oplossingen voor zorg, onderwijs en meer.</p>
+                <p><b>In 2018</b> lanceerde het bedrijf zijn eigen productlijn, Circle D.O.T.S.: een modulair platform dat bedrijven helpt hun interne processen te stroomlijnen.</p>
+                <p>Inmiddels heeft Circle Solutions 40+ medewerkers en klanten in Nederland, België en Duitsland. In 2025 bereidt het bedrijf zich voor op een internationale uitbreiding, onder leiding van Chief Applications Officer Sarah Kleinn.</p>
             </div>
         </section>
         <section class="team">
