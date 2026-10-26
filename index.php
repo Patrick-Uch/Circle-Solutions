@@ -22,7 +22,7 @@ include __DIR__ . '/src/components/head.php';
             <div class="container">
                 <div class="boxes">
                 <div>
-                     <img src="/src/img/index/icons/leaf.svg" alt=" Eenvoud">
+                     <img src="/src/img/index/icons/leaf.svg" alt="Eenvoud">
                      <h2>Eenvoud</h2>
                      <p>Geen overbodige functies of ingewikkelde systemen. Alleen wat nodig is.</p>
                 </div>
