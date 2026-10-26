@@ -2,25 +2,11 @@
 $pageTitle = 'Klantenboek';
 $activePage = 'klantenboek';
 
-// TODO: Rework the system to load from json file
-$stories = [
-    [
-        'naam' => 'Jane Smith',
-        'bedrijfsnaam' => 'Zorggroep De Linde',
-        'datum' => '2026-01-18',
-        'datumTekst' => '18 januari 2026',
-        'quote' => 'Dankzij Circle Solutions hebben we ons rooster eindelijk op één plek. Het scheelt ons team uren per week.',
-        'sterren' => 5,
-    ],
-    [
-        'naam' => 'John Doe',
-        'bedrijfsnaam' => 'Zorggroep De Linde',
-        'datum' => '2026-01-18',
-        'datumTekst' => '18 januari 2026',
-        'quote' => 'Dankzij Circle Solutions hebben we ons rooster eindelijk op één plek. Het scheelt ons team uren per week.',
-        'sterren' => 5,
-    ],
-];
+$stories_json = file_get_contents(__DIR__ . '/../data/klantenboek-data.json'); 
+if ($stories_json === false) die('Error reading the JSON file');
+
+$stories = json_decode($stories_json, true);
+if ($stories === null) die('Error decoding the JSON file');
 
 include __DIR__ . '/../components/head.php';
 ?>

@@ -1,0 +1,18 @@
+[
+	{
+		"naam": "Jane Smith",
+		"bedrijfsnaam": "Zorggroep De Linde",
+		"datum": "2026-01-18",
+		"datumTekst": "18 januari 2026",
+		"quote": "Dankzij Circle Solutions hebben we ons rooster eindelijk op één plek. Het scheelt ons team uren per week.",
+		"sterren": 5
+	},
+	{
+		"naam": "John Doe",
+		"bedrijfsnaam": "Zorggroep De Linde",
+		"datum": "2026-01-18",
+		"datumTekst": "18 januari 2026",
+		"quote": "Dankzij Circle Solutions hebben we ons rooster eindelijk op één plek. Het scheelt ons team uren per week.",
+		"sterren": 5
+	}
+]
