@@ -21,20 +21,21 @@ include __DIR__ . '/src/components/head.php';
             <br>
             <div class="container">
                 <div class="boxes">
-                <div>
-                     <img src="/src/img/index/icons/leaf.svg" alt="Eenvoud">
-                     <h2>Eenvoud</h2>
-                     <p>Geen overbodige functies of ingewikkelde systemen. Alleen wat nodig is.</p>
-                </div>
-                <div>
-                     <img src="/src/img/index/icons/shield.svg" alt="Vertrouwen">
-                     <h2>Vertrouwen</h2>
-                     <p>Betrouwbare oplossingen waar je dagelijks op kunt bouwen.</p>
-                </div>
-                <div>
-                     <img src="/src/img/index/icons/settings.svg" alt="Functionaliteit">
-                     <h2>Functionaliteit</h2>
-                     <p>Software die aansluit op jouw processen en bijdraagt aan efficiëntie.</p>
+                    <div>
+                        <img src="/src/img/index/icons/leaf.svg" alt="Eenvoud">
+                        <h2>Eenvoud</h2>
+                        <p>Geen overbodige functies of ingewikkelde systemen. Alleen wat nodig is.</p>
+                    </div>
+                    <div>
+                        <img src="/src/img/index/icons/shield.svg" alt="Vertrouwen">
+                        <h2>Vertrouwen</h2>
+                        <p>Betrouwbare oplossingen waar je dagelijks op kunt bouwen.</p>
+                    </div>
+                    <div>
+                        <img src="/src/img/index/icons/settings.svg" alt="Functionaliteit">
+                        <h2>Functionaliteit</h2>
+                        <p>Software die aansluit op jouw processen en bijdraagt aan efficiëntie.</p>
+                    </div>
                 </div>
             </div>
         </section> 
