@@ -2,11 +2,13 @@
 $pageTitle = 'Klantenboek';
 $activePage = 'klantenboek';
 
-$stories_json = file_get_contents(__DIR__ . '/../data/klantenboek-data.json'); 
-if ($stories_json === false) die('Error reading the JSON file');
+$stories_json = file_get_contents(__DIR__ . '/../data/klantenboek-data.json');
+if ($stories_json === false)
+    die('Error reading the JSON file');
 
 $stories = json_decode($stories_json, true);
-if ($stories === null) die('Error decoding the JSON file');
+if ($stories === null)
+    die('Error decoding the JSON file');
 
 include __DIR__ . '/../components/head.php';
 ?>
@@ -39,13 +41,15 @@ include __DIR__ . '/../components/head.php';
                                 <header class="story-card-header">
                                     <img class="story-card-icon" src="/src/img/klantenboek/icons/building.svg" alt="">
                                     <div>
-                                        <h3 class="story-card-company-name"><?= htmlspecialchars($story['bedrijfsnaam']) ?></h3>
+                                        <h3 class="story-card-company-name"><?= $story['bedrijfsnaam'] ?>
+                                        </h3>
                                         <time class="story-card-date"
                                             datetime="<?= $story['datum'] ?>"><?= $story['datumTekst'] ?></time>
                                     </div>
                                 </header>
 
-                                <blockquote class="story-card-quote"><?= htmlspecialchars($story['quote']) ?> <span>- <?= htmlspecialchars($story['naam']) ?></span></blockquote>
+                                <blockquote class="story-card-quote"><?= $story['verhaal'] ?> <span>-
+                                        <?= $story['naam'] ?></span></blockquote>
 
                                 <div class="story-card-rating" role="img"
                                     aria-label="<?= $story['sterren'] ?> van 5 sterren">
@@ -67,7 +71,6 @@ include __DIR__ . '/../components/head.php';
                 <p class="form-subtitle">Ben jij klant bij Circle Solutions? Vertel ons hoe wij jouw organisatie hebben
                     geholpen.</p>
 
-                <!-- TODO: Create system to save and store customer stories to an existing json file -->
                 <form action="/src/actions/klantenboek-form.php" method="post" class="form-container">
                     <label for="naam">Naam</label>
                     <input type="text" id="naam" name="naam" placeholder="Jouw naam" required>
@@ -76,12 +79,13 @@ include __DIR__ . '/../components/head.php';
                     <input type="text" id="bedrijfsnaam" name="bedrijfsnaam" placeholder="Naam van uw bedrijf" required>
 
                     <label for="verhaal">Jouw verhaal</label>
-                    <textarea id="verhaal" name="verhaal" rows="3" placeholder="Vertel hoe je Circle Solutions hebt ervaren" required></textarea>
+                    <textarea id="verhaal" name="verhaal" rows="3"
+                        placeholder="Vertel hoe je Circle Solutions hebt ervaren" required></textarea>
 
                     <label for="star-1">Beoordeling</label>
                     <div class="star-rating">
                         <?php for ($i = 5; $i >= 1; $i--): ?>
-                            <input type="radio" id="star-<?= $i ?>" name="rating" value="<?= $i ?>" required>
+                            <input type="radio" id="star-<?= $i ?>" name="sterren" value="<?= $i ?>" required>
 
                             <label for="star-<?= $i ?>">
                                 <img class="star-outline" src="/src/img/klantenboek/icons/star-outline.svg" alt="">
@@ -90,7 +94,8 @@ include __DIR__ . '/../components/head.php';
                         <?php endfor; ?>
                     </div>
 
-                    <button type="submit">Verhaal versturen <img src="/src/img/klantenboek/icons/arrow-right.svg" alt=""></button>
+                    <button type="submit">Verhaal versturen <img src="/src/img/klantenboek/icons/arrow-right.svg"
+                            alt=""></button>
                 </form>
             </div>
         </section>
