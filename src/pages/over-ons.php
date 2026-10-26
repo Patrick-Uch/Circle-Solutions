@@ -6,10 +6,14 @@ include __DIR__ . '/../components/head.php';
 <body>
     <?php include __DIR__ . '/../components/navbar.php'; ?>
     <link rel="stylesheet" href="/src/css/over-ons.css">
-    <main class="page-content">
+    <main>
         <section class="hero">
+            <img src="/src/img/over-ons/hero.png" alt="Over ons">
             <div class="container">
-                <h1>Over ons</h1>
+                <div class="container-text">
+                    <h1>Over ons</h1>
+                    <p class="altcolor">Sinds 2005 bouwen we aan software die processen simpeler maakt, niet ingewikkelder.</p>
+                </div>
             </div>
         </section>
         <section class="visieenmissie">
