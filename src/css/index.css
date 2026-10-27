@@ -1,0 +1,157 @@
+.home-hero {
+    position: relative;
+    min-height: 650px;
+    overflow: hidden;
+}
+
+.home-hero img {
+    position: absolute;
+    inset: 0;
+    width: 125%;
+    height: 95%;
+    object-fit: cover;
+}
+
+.home-hero .container {
+    position: relative;
+    padding: 180px 200px;
+    scale: 1.5;
+}
+
+.home-hero b {
+    color: var(--color-primary);
+}
+
+.home-hero-text {
+    max-width: 300px;
+    padding-bottom: 20px;
+    color: var(--color-primary);
+}
+
+.home-waarwevoorstaan {
+    min-height: 400px;
+}
+
+.home-waarwevoorstaan .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-waarwevoorstaan h1 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.home-waarwevoorstaan-text {
+    display: flex;
+}
+
+.home-waarwevoorstaan-text div {
+    margin: 10px;
+    padding: 20px 25px;
+    border-radius: 20px;
+    background-color: var(--color-primary-light);
+    font-weight: bold;
+    width: 350px;
+}
+
+.home-waarwevoorstaan-text h2 {
+    color: var(--color-primary-dark);
+    margin: 0;
+}
+
+.home-waarwevoorstaan-text img {
+    background-color: var(--color-primary);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.home-dots {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 500px;
+}
+
+.home-dots-container {
+    width: 30%;
+    padding: 0 0 0 50px;
+}
+
+.home-dots img {
+    object-fit: cover;
+    width: 55%;
+    height: 90%;
+    padding: 50px;
+    margin: 0 0 0 50px;
+    border-radius: 60px;
+    max-width: 750px;
+}
+
+.home-dots a {
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+.home-dots a:visited {
+    color: var(--color-white);
+}
+
+.home-reviews {
+    background-color: var(--color-primary-light);
+    text-align: center;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.home-reviews .container {
+    width: 600px;
+}
+
+.home-reviews p {
+    color: var(--color-gray);
+}
+
+.home-reviews .btn {
+    color: var(--color-primary-dark);
+    background: var(--color-primary-light);
+    border: solid 2px var(--color-primary-dark);
+}
+
+.home-contact {
+    background-color: var(--color-text);
+    text-align: center;
+    color: var(--color-primary);
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.home-contact h1 {
+    color: var(--color-white);
+}
+
+.home-contact .btn {
+    color: var(--color-primary);
+    background: white;
+}
+
+.home-contact .container {
+    min-width: 800px;
+}
+
+.home-contact p {
+    max-width: 600px;
+}
+
+@media (max-width: 960px) {
+
+}
+
+@media (max-width: 600px) {
+
+}
