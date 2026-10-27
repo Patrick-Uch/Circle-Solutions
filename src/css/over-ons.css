@@ -1,0 +1,242 @@
+.over-ons-hero {
+    position: relative;
+    min-height: 400px;
+    overflow: hidden;
+}
+
+.over-ons-hero .container {
+    position: relative;
+    padding: 100px 160px;
+    scale: 1.5;
+}
+
+.over-ons-hero-text {
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+    padding: 10px 50px 10px 20px;
+    width: 320px;
+    backdrop-filter: blur(5px);
+}
+
+.over-ons-hero-text p {
+    color: var(--color-primary)
+}
+
+.over-ons-hero img {
+    position: absolute;
+    width: 100%;
+    height: 95%;
+    object-fit: cover;
+}
+
+.over-ons-visie-missie-text {
+    display: flex;
+    justify-content: center;
+}
+
+.over-ons-visie-missie-text .container {
+    width: 600px;
+    color: var(--color-gray);
+    padding: 30px;
+}
+
+.over-ons-visie-missie h2 {
+    color: var(--color-primary);
+    margin: 0;
+}
+
+.over-ons-visie-missie img {
+    background-color: var(--color-primary);
+    padding: 15px;
+    border-radius: 50px;
+    margin-bottom: 15px;
+}
+
+.over-ons-waaromhoewat {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: var(--color-gray);
+}
+
+.over-ons-waaromhoewat .container {
+    width: 330px;
+    flex: 1;
+    position: relative;
+}
+
+.over-ons-waaromhoewat p {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.over-ons-waaromhoewat .container:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    width: 100%;
+    height: 5px;
+    background-color: var(--color-primary-light);
+}
+
+.over-ons-waaromhoewat img {
+    position: relative;
+    z-index: 1;
+    display: block;
+    margin: 0 auto;
+}
+
+.over-ons-waaromhoewat h2 {
+    padding-top: 10px;
+}
+
+.over-ons-kernwaarden {
+    min-height: 400px;
+    background-color: var(--color-primary-light);
+}
+
+.over-ons-kernwaarden .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.over-ons-kernwaarden h1 {
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 60px;
+}
+
+.over-ons-kernwaarden-text {
+    display: flex;
+}
+
+.over-ons-kernwaarden-text div {
+    margin: 10px;
+    padding: 20px 25px;
+    border-radius: 20px;
+    background-color: var(--color-white);
+    font-weight: bold;
+    width: 350px;
+}
+
+.over-ons-kernwaarden-text h2 {
+    color: var(--color-primary-dark);
+    margin: 0;
+}
+
+.over-ons-kernwaarden-text img {
+    background-color: var(--color-primary);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.over-ons-geschiedenis {
+    height: 450px;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.over-ons-geschiedenis img {
+    object-fit: cover;
+    width: 48%;
+    height: 90%;
+    padding: 50px;
+    margin: 0 0 0 75px;
+    border-radius: 60px;
+    max-width: 750px;
+}
+
+.over-ons-geschiedenis .container {
+    width: 540px;
+}
+
+.over-ons-team {
+    min-height: 600px;
+    text-align: center;
+}
+
+.over-ons-team p {
+    color: var(--color-gray);
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
+
+.over-ons-team h4 {
+    color: var(--color-primary);
+    padding-top: 50px;
+    margin-bottom: 12px;
+}
+
+.over-ons-team h1 {
+    margin: 0;
+}
+
+.over-ons-team-photos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.over-ons-team-photo {
+    width: 250px;
+    height: 350px;
+    background-color: var(--color-primary-light);
+    border-radius: 20px;
+}
+
+.over-ons-team-photo img {
+    width: 100%;
+    height: 75%;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.over-ons-team-photo h3 {
+    margin: 12px;
+}
+
+.over-ons-team-photo p {
+    color: var(--color-primary-dark);
+}
+
+.over-ons-contact {
+    background-color: var(--color-text);
+    text-align: center;
+    color: var(--color-primary);
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.over-ons-contact h1 {
+    color: var(--color-white);
+}
+
+.over-ons-contact .btn {
+    color: var(--color-primary);
+    background-color: var(--color-white);
+}
+
+.over-ons-contact .container {
+    min-width: 800px;
+}
+
+.over-ons-contact p {
+    max-width: 600px;
+}
+
+@media (max-width: 960px) {
+
+}
+
+@media (max-width: 600px) {
+
+}
