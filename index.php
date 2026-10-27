@@ -8,7 +8,7 @@ include __DIR__ . '/src/components/head.php';
     <link rel="stylesheet" href="/src/css/index.css">
     <main>
         <section class="home-hero">
-            <img src="/src/img/index/hero.png" alt="Just connect the dots">
+            <img src="/src/img/index/hero.png" alt="">
             <div class="container">
                 <h1>Just connect the <b>dots</b>.</h1>
                 <div class="home-hero-text">
@@ -21,17 +21,17 @@ include __DIR__ . '/src/components/head.php';
             <h1>Waar we voor staan</h1>
             <div class="container">
                 <div class="home-waarwevoorstaan-text">
-                    <div>
+                    <div class="home-card">
                         <img src="/src/img/index/icons/leaf.svg" alt="Eenvoud">
                         <h2>Eenvoud</h2>
                         <p>Geen overbodige functies of ingewikkelde systemen. Alleen wat nodig is.</p>
                     </div>
-                    <div>
+                    <div class="home-card">
                         <img src="/src/img/index/icons/shield.svg" alt="Vertrouwen">
                         <h2>Vertrouwen</h2>
                         <p>Betrouwbare oplossingen waar je dagelijks op kunt bouwen.</p>
                     </div>
-                    <div>
+                    <div class="home-card">
                         <img src="/src/img/index/icons/settings.svg" alt="Functionaliteit">
                         <h2>Functionaliteit</h2>
                         <p>Software die aansluit op jouw processen en bijdraagt aan efficiëntie.</p>

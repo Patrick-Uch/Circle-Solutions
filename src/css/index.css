@@ -7,8 +7,8 @@
 .home-hero img {
     position: absolute;
     inset: 0;
-    width: 125%;
-    height: 95%;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -47,7 +47,7 @@
     display: flex;
 }
 
-.home-waarwevoorstaan-text div {
+.home-card {
     margin: 10px;
     padding: 20px 25px;
     border-radius: 20px;
@@ -84,10 +84,9 @@
 .home-dots img {
     object-fit: cover;
     width: 55%;
-    height: 90%;
-    padding: 50px;
+    height: 80%;
     margin: 0 0 0 50px;
-    border-radius: 60px;
+    border-radius: 20px;
     max-width: 750px;
 }
 
@@ -141,17 +140,52 @@
 }
 
 .home-contact .container {
-    min-width: 800px;
+    width: 100%;
 }
 
 .home-contact p {
     max-width: 600px;
+    margin: 0 auto 24px;
 }
 
 @media (max-width: 960px) {
+    .home-hero .container {
+        padding: 80px 24px;
+        scale: 1;
+    }
 
+    .home-waarwevoorstaan-text,
+    .home-dots {
+        flex-direction: column;
+    }
+
+    .home-card {
+        width: auto;
+    }
+
+    .home-dots {
+        height: auto;
+        padding: 40px 24px;
+    }
+
+    .home-dots img {
+        width: 100%;
+        height: 300px;
+        margin: 0 0 24px;
+    }
+
+    .home-dots-container {
+        width: 100%;
+        padding: 0;
+    }
+
+    .home-reviews .container {
+        width: 100%;
+    }
 }
 
 @media (max-width: 600px) {
-
+    .home-hero {
+        min-height: 450px;
+    }
 }
