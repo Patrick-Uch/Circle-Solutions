@@ -36,9 +36,9 @@ array_unshift($stories, [
 ]);
 
 // Convert de bijgewerkte array terug naar JSON
-$stories_json = json_encode($stories, JSON_PRETTY_PRINT);
+$stories_json_new = json_encode($stories, JSON_PRETTY_PRINT);
 
 // Schrijf de data terug naar de JSON file
-file_put_contents(__DIR__ . '/../data/klantenboek-data.json', $stories_json);
+file_put_contents(__DIR__ . '/../data/klantenboek-data.json', $stories_json_new);
 header('Location: /src/pages/klantenboek.php');
 exit;
