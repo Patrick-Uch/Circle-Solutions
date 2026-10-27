@@ -1,0 +1,34 @@
+[
+	{
+        "naam": "Linde de Vries",
+        "bedrijfsnaam": "Zorggroep De Linde",
+        "datum": "2026-01-18",
+        "datumTekst": "18 januari 2026",
+        "verhaal": "Dankzij Circle Solutions hebben we ons rooster eindelijk op \u00e9\u00e9n plek. Het scheelt ons team uren per week.",
+        "sterren": 5
+    },
+    {
+        "naam": "Frederik van Dijk",
+        "bedrijfsnaam": "Transportbedrijf van Dijk",
+        "datum": "2026-10-26",
+        "datumTekst": "26 October 2026",
+        "verhaal": "Fijne samenwerking. Ze luisteren goed naar wat we nodig hebben en voegen niet toe wat overbodig is.",
+        "sterren": 5
+    },
+    {
+        "naam": "Elise Weering",
+        "bedrijfsnaam": "UBBO Emmius Engelandlaan",
+        "datum": "2026-10-26",
+        "datumTekst": "26 October 2026",
+        "verhaal": "Onze leerlingadministratie is overzichtelijker dan ooit. De docenten konden er direct mee werken.",
+        "sterren": 5
+    },
+    {
+        "naam": "Jan Jansen",
+        "bedrijfsnaam": "Bakkerij Jansen",
+        "datum": "2026-10-26",
+        "datumTekst": "26 October 2026",
+        "verhaal": "Snel geholpen met een koppeling tussen ons kassasysteem en de voorraad. Precies wat we zochten.",
+        "sterren": 5
+    }
+]
