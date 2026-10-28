@@ -98,6 +98,7 @@ include __DIR__ . '/../components/head.php';
             </div>
         </section>
     </main>
+    <?php include __DIR__ . '/../components/footer.php'; ?>
 </body>
 
 </html>

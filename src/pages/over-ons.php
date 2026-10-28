@@ -3,6 +3,7 @@ $pageTitle = 'Over ons';
 $activePage = 'over-ons';
 include __DIR__ . '/../components/head.php';
 ?>
+
 <body>
     <?php include __DIR__ . '/../components/navbar.php'; ?>
     <link rel="stylesheet" href="/src/css/over-ons.css">
@@ -113,5 +114,7 @@ include __DIR__ . '/../components/head.php';
             </div>
         </section>
     </main>
+    <?php include __DIR__ . '/../components/footer.php'; ?>
 </body>
+
 </html>

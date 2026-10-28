@@ -4,8 +4,10 @@ $activePage = 'oplossingen';
 include __DIR__ . '/../data/oplossingen-data.php';
 include __DIR__ . '/../components/head.php';
 ?>
+
 <body>
-    <?php // Eigen CSS voor deze pagina, zo zit de style.css van de anderen niet in de weg ?>
+    <?php // Eigen CSS voor deze pagina, zo zit de style.css van de anderen niet in de weg 
+    ?>
     <link rel="stylesheet" href="/src/css/oplossingen.css">
 
     <?php include __DIR__ . '/../components/navbar.php'; ?>
@@ -52,9 +54,10 @@ include __DIR__ . '/../components/head.php';
                 <h2 class="section-title"><?= t('solutions.projects.title') ?></h2>
                 <p class="section-subtitle"><?= t('solutions.projects.subtitle') ?></p>
 
-                <?php // Verborgen radio buttons voor het filter, zie CSS ?>
+                <?php // Verborgen radio buttons voor het filter, zie CSS 
+                ?>
                 <?php foreach ($filters as $key => $label): ?>
-                    <input type="radio" name="project-filter" id="filter-<?= $key ?>" class="filter-input"<?= $key === 'alle' ? ' checked' : '' ?>>
+                    <input type="radio" name="project-filter" id="filter-<?= $key ?>" class="filter-input" <?= $key === 'alle' ? ' checked' : '' ?>>
                 <?php endforeach; ?>
 
                 <div class="filter-buttons">
@@ -81,7 +84,8 @@ include __DIR__ . '/../components/head.php';
                     <?php endforeach; ?>
                 </div>
 
-                <?php // Project modals, openen met popovertarget. Sluiten met het kruisje, Esc of ernaast klikken ?>
+                <?php // Project modals, openen met popovertarget. Sluiten met het kruisje, Esc of ernaast klikken 
+                ?>
                 <?php foreach ($projects as $i => $project): ?>
                     <div id="project-<?= $i ?>" popover class="project-modal">
                         <button type="button" popovertarget="project-<?= $i ?>" popovertargetaction="hide" class="project-modal-close" aria-label="<?= t('common.close') ?>">&times;</button>
@@ -117,5 +121,7 @@ include __DIR__ . '/../components/head.php';
             </div>
         </section>
     </main>
+    <?php include __DIR__ . '/../components/footer.php'; ?>
 </body>
+
 </html>
