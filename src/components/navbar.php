@@ -17,7 +17,7 @@ $navItems = [
 
         <!-- Checkbox voor de mobile menu toggle, zie CSS -->
         <input type="checkbox" id="nav-toggle" class="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-label" aria-label="Menu">
+        <label for="nav-toggle" class="nav-toggle-label" aria-label="<?= t('nav.menu') ?>">
             <span></span>
             <span></span>
             <span></span>
@@ -32,7 +32,7 @@ $navItems = [
             </ul>
             <div class="nav-actions">
                 <a href="?lang=<?= $nextLang ?>" class="lang-switch">
-                    <img src="/src/img/<?= $nextLang ?>.png" alt="English">
+                    <img src="/src/img/<?= $nextLang ?>.png" alt="<?= t('nav.langswitch') ?>">
                 </a>
                 <a href="/src/pages/contact.php" class="btn"><?= t('nav.cta') ?></a>
             </div>

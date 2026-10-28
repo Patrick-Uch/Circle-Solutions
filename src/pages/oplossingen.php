@@ -1,5 +1,5 @@
 <?php
-$pageTitle = 'Oplossingen';
+$pageTitle = 'nav.solutions';
 $activePage = 'oplossingen';
 include __DIR__ . '/../data/oplossingen-data.php';
 include __DIR__ . '/../components/head.php';
@@ -15,15 +15,15 @@ include __DIR__ . '/../components/head.php';
             <img src="/src/img/oplossingen/hero.png" alt="" class="solutions-hero-bg">
             <div class="container">
                 <div class="solutions-hero-card">
-                    <h1>Oplossingen</h1>
-                    <p>Maatwerksoftware voor uiteenlopende sectoren en processen. Praktisch, schaalbaar en zonder overbodige complexiteit.</p>
+                    <h1><?= t('solutions.hero.title') ?></h1>
+                    <p><?= t('solutions.hero.text') ?></p>
                 </div>
             </div>
         </section>
 
         <section class="solutions">
             <div class="container">
-                <h2 class="section-title">Onze oplossingen</h2>
+                <h2 class="section-title"><?= t('solutions.title') ?></h2>
                 <div class="solutions-grid">
                     <?php foreach ($solutions as $solution): ?>
                         <div class="solution-card">
@@ -40,17 +40,17 @@ include __DIR__ . '/../components/head.php';
             <div class="container">
                 <div class="dots-text">
                     <h2>D.O.T.S.</h2>
-                    <p>Onze D.O.T.S. (Digital Office Tools &amp; Solutions) is een modulair platform dat interne processen samenbrengt. Bedrijven combineren precies de modules die ze nodig hebben, niet meer en niet minder.</p>
+                    <p><?= t('solutions.dots.text') ?></p>
                 </div>
-                <img src="/src/img/oplossingen/dots.png" alt="D.O.T.S. verbindt werk en technologie" class="dots-img">
+                <img src="/src/img/oplossingen/dots.png" alt="<?= t('solutions.dots.alt') ?>" class="dots-img">
             </div>
         </section>
 
         <section class="projects">
             <div class="container">
-                <span class="section-label">Cases</span>
-                <h2 class="section-title">Echte projecten, echte resultaten</h2>
-                <p class="section-subtitle">Een greep uit het maatwerk dat we voor onze klanten hebben gebouwd.</p>
+                <span class="section-label"><?= t('solutions.projects.label') ?></span>
+                <h2 class="section-title"><?= t('solutions.projects.title') ?></h2>
+                <p class="section-subtitle"><?= t('solutions.projects.subtitle') ?></p>
 
                 <?php // Verborgen radio buttons voor het filter, zie CSS ?>
                 <?php foreach ($filters as $key => $label): ?>
@@ -75,7 +75,7 @@ include __DIR__ . '/../components/head.php';
                                 </div>
                                 <h3><?= $project['title'] ?></h3>
                                 <p><?= $project['text'] ?></p>
-                                <button type="button" popovertarget="project-<?= $i ?>" class="project-link">Bekijk project &rarr;</button>
+                                <button type="button" popovertarget="project-<?= $i ?>" class="project-link"><?= t('solutions.projects.view') ?></button>
                             </div>
                         </article>
                     <?php endforeach; ?>
@@ -84,7 +84,7 @@ include __DIR__ . '/../components/head.php';
                 <?php // Project modals, openen met popovertarget. Sluiten met het kruisje, Esc of ernaast klikken ?>
                 <?php foreach ($projects as $i => $project): ?>
                     <div id="project-<?= $i ?>" popover class="project-modal">
-                        <button type="button" popovertarget="project-<?= $i ?>" popovertargetaction="hide" class="project-modal-close" aria-label="Sluiten">&times;</button>
+                        <button type="button" popovertarget="project-<?= $i ?>" popovertargetaction="hide" class="project-modal-close" aria-label="<?= t('common.close') ?>">&times;</button>
                         <img src="/src/img/oplossingen/projecten/<?= $project['image'] ?>" alt="<?= $project['title'] ?>" class="project-modal-img">
                         <div class="project-modal-body">
                             <div class="project-tags">
@@ -93,13 +93,13 @@ include __DIR__ . '/../components/head.php';
                                 <?php endforeach; ?>
                             </div>
                             <h3><?= $project['title'] ?></h3>
-                            <h4>De uitdaging</h4>
+                            <h4><?= t('solutions.projects.challenge') ?></h4>
                             <p><?= $project['challenge'] ?></p>
-                            <h4>Onze oplossing</h4>
+                            <h4><?= t('solutions.projects.solution') ?></h4>
                             <p><?= $project['solution'] ?></p>
-                            <h4>Het resultaat</h4>
+                            <h4><?= t('solutions.projects.result') ?></h4>
                             <p><?= $project['result'] ?></p>
-                            <a href="/src/pages/contact.php" class="btn">Plan een kennismaking</a>
+                            <a href="/src/pages/contact.php" class="btn"><?= t('common.cta') ?></a>
                         </div>
                     </div>
                 <?php endforeach; ?>
@@ -108,12 +108,12 @@ include __DIR__ . '/../components/head.php';
 
         <section class="whitepaper">
             <div class="container">
-                <img src="/src/img/oplossingen/whitepaper.png" alt="Whitepaper Efficiëntere processen met maatwerksoftware" class="whitepaper-img">
+                <img src="/src/img/oplossingen/whitepaper.png" alt="<?= t('solutions.whitepaper.alt') ?>" class="whitepaper-img">
                 <div class="whitepaper-text">
-                    <h2>Onze whitepaper</h2>
-                    <p>Download onze whitepaper en ontdek hoe wij organisaties helpen hun processen te optimaliseren.</p>
+                    <h2><?= t('solutions.whitepaper.title') ?></h2>
+                    <p><?= t('solutions.whitepaper.text') ?></p>
                 </div>
-                <a href="/src/img/oplossingen/whitepaper.docx" download class="btn">Download nu</a>
+                <a href="/src/img/oplossingen/whitepaper.docx" download class="btn"><?= t('solutions.whitepaper.button') ?></a>
             </div>
         </section>
     </main>
