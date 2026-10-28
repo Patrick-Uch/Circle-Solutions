@@ -348,3 +348,35 @@ select {
         }
     }
 }
+/* Contact blok onderaan, gedeeld door home en oplossingen */
+.contact-cta {
+    background-color: var(--color-text);
+    text-align: center;
+    color: var(--color-primary);
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.contact-cta h1 {
+    color: var(--color-white);
+}
+
+.contact-cta .btn {
+    color: var(--color-primary);
+    background: white;
+}
+
+.contact-cta .container {
+    width: 100%;
+}
+
+.contact-cta p {
+    max-width: 600px;
+    margin: 0 auto 24px;
+}
+
+/* Pijl-icoon achter knoppen en links, zie components/icon-arrow.php */
+.icon-arrow {
+    vertical-align: middle;
+}

@@ -15,7 +15,7 @@ include __DIR__ . '/src/components/head.php';
                 <div class="home-hero-text">
                     <p><?= t('home.hero.text') ?></p>
                 </div>
-                <a href="/src/pages/oplossingen.php" class="btn"><?= t('home.hero.button') ?></a>
+                <a href="/src/pages/oplossingen.php" class="btn"><?= t('home.hero.button') ?> <?php include __DIR__ . '/src/components/icon-arrow.php'; ?></a>
             </div>
         </section>
         <section class="home-waarwevoorstaan">
@@ -45,23 +45,17 @@ include __DIR__ . '/src/components/head.php';
             <div class="home-dots-container">
                 <h1>D.O.T.S.</h1>
                 <p><?= t('home.dots.text') ?></p>
-                <a href="/src/pages/oplossingen.php"><?= t('home.dots.link') ?></a>
+                <a href="/src/pages/oplossingen.php"><?= t('home.dots.link') ?> <?php include __DIR__ . '/src/components/icon-arrow.php'; ?></a>
             </div>
         </section>
         <section class="home-reviews">
             <div class="container">
                 <h1><?= t('home.review.quote') ?></h1>
                 <p>-Mark van Dijk</p>
-                <a href="/src/pages/klantenboek.php" class="btn"><?= t('home.review.button') ?></a>
+                <a href="/src/pages/klantenboek.php" class="btn"><?= t('home.review.button') ?> <?php include __DIR__ . '/src/components/icon-arrow.php'; ?></a>
             </div>
         </section>
-        <section class="home-contact">
-            <div class="container">
-                <h1><?= t('home.contact.title') ?></h1>
-                <p><?= t('home.contact.text') ?></p>
-                <a href="/src/pages/contact.php" class="btn"><?= t('home.contact.button') ?></a>
-            </div>
-        </section>
+        <?php include __DIR__ . '/src/components/contact-cta.php'; ?>
     </main>
 </body>
 <?php include __DIR__ . '/src/components/footer.php'; ?>
