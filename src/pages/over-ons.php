@@ -3,6 +3,7 @@ $pageTitle = 'Over ons';
 $activePage = 'over-ons';
 include __DIR__ . '/../components/head.php';
 ?>
+
 <body>
     <?php include __DIR__ . '/../components/navbar.php'; ?>
 
@@ -11,5 +12,7 @@ include __DIR__ . '/../components/head.php';
             <h1>Fakka</h1>
         </div>
     </main>
+    <?php include __DIR__ . '/../components/footer.php'; ?>
 </body>
+
 </html>
