@@ -109,7 +109,7 @@ include __DIR__ . '/../components/head.php';
             <div class="container">
                 <h1>Klaar voor een website die past bij jouw bedrijf?</h1>
                 <p>Vraag een vrijblijvend voorstel op maat aan en ontdek wat Circle Solutions voor jouw organisatie kan doen.</p>
-                <a href="/src/pages/contact.php" class="btn">Neem contact op -></a>
+                <a href="/src/pages/contact.php" class="btn">Neem contact op →</a>
             </div>
         </section>
     </main>
