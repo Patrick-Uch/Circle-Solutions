@@ -2,16 +2,16 @@
 // Menu items: 'key' => ['label', 'href']
 // Als de key gelijk is aan $activePage krijgt de link de active class
 $navItems = [
-    'home' => [t('nav.home'), '/index.php?lang=' . $currentLang],
-    'over-ons' => [t('nav.about'), '/src/pages/over-ons.php?lang=' . $currentLang],
-    'oplossingen' => [t('nav.solutions'), '/src/pages/oplossingen.php?lang=' . $currentLang],
-    'klantenboek' => [t('nav.customerstories'), '/src/pages/klantenboek.php?lang=' . $currentLang],
-    'contact' => [t('nav.contact'), '/src/pages/contact.php?lang=' . $currentLang],
+    'home' => [t('nav.home'), '/'],
+    'over-ons' => [t('nav.about'), '/src/pages/over-ons.php'],
+    'oplossingen' => [t('nav.solutions'), '/src/pages/oplossingen.php'],
+    'klantenboek' => [t('nav.customerstories'), '/src/pages/klantenboek.php'],
+    'contact' => [t('nav.contact'), '/src/pages/contact.php'],
 ];
 ?>
 <header class="navbar">
     <div class="container">
-        <a href="/index.php" class="logo">
+        <a href="/" class="logo">
             <img src="/src/img/logo.jpg" alt="Circle Solutions">
         </a>
 
