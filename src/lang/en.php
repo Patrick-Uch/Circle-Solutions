@@ -17,7 +17,7 @@ return [
     // Home
     'home.hero.title' => 'Just connect the <b>dots</b>.',
     'home.hero.text' => 'Custom software that makes complex processes simple. No fuss, just results.',
-    'home.hero.button' => 'Discover our solutions ->',
+    'home.hero.button' => 'Discover our solutions',
     'home.values.title' => 'What we stand for',
     'home.values.simplicity.title' => 'Simplicity',
     'home.values.simplicity.text' => 'No unnecessary features or complicated systems. Only what you need.',
@@ -26,12 +26,12 @@ return [
     'home.values.functionality.title' => 'Functionality',
     'home.values.functionality.text' => 'Software that fits your processes and improves efficiency.',
     'home.dots.text' => 'Circle D.O.T.S. is our modular platform that helps companies streamline their internal processes: flexible, scalable and tailor-made.',
-    'home.dots.link' => 'More about our solutions ->',
+    'home.dots.link' => 'More about our solutions',
     'home.review.quote' => '"Thanks to Circle Solutions, our systems run smoothly."',
-    'home.review.button' => 'Read more stories in our Customer Stories ->',
+    'home.review.button' => 'Read more stories in our Customer Stories',
     'home.contact.title' => 'Ready for a website that fits your business?',
     'home.contact.text' => 'Request a free, no-obligation proposal and discover what Circle Solutions can do for your organisation.',
-    'home.contact.button' => 'Get in touch ->',
+    'home.contact.button' => 'Get in touch',
 
     // Over ons
     'about.hero.title' => 'About us',
@@ -87,7 +87,7 @@ return [
     'solutions.projects.label' => 'Cases',
     'solutions.projects.title' => 'Real projects, real results',
     'solutions.projects.subtitle' => 'A selection of the custom work we have built for our clients.',
-    'solutions.projects.view' => 'View project &rarr;',
+    'solutions.projects.view' => 'View project',
     'solutions.projects.challenge' => 'The challenge',
     'solutions.projects.solution' => 'Our solution',
     'solutions.projects.result' => 'The result',

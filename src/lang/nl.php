@@ -17,7 +17,7 @@ return [
     // Home
     'home.hero.title' => 'Just connect the <b>dots</b>.',
     'home.hero.text' => 'Maatwerksoftware die complexe processen simpel maakt. Zonder poespas, mét resultaat.',
-    'home.hero.button' => 'Ontdek onze oplossingen ->',
+    'home.hero.button' => 'Ontdek onze oplossingen',
     'home.values.title' => 'Waar we voor staan',
     'home.values.simplicity.title' => 'Eenvoud',
     'home.values.simplicity.text' => 'Geen overbodige functies of ingewikkelde systemen. Alleen wat nodig is.',
@@ -26,12 +26,12 @@ return [
     'home.values.functionality.title' => 'Functionaliteit',
     'home.values.functionality.text' => 'Software die aansluit op jouw processen en bijdraagt aan efficiëntie.',
     'home.dots.text' => 'Circle D.O.T.S. is ons modulaire platform waarmee bedrijven hun interne processen stroomlijnen: flexibel, schaalbaar en op maat.',
-    'home.dots.link' => 'Meer over oplossingen ->',
+    'home.dots.link' => 'Meer over oplossingen',
     'home.review.quote' => '"Dankzij Circle Solutions lopen onze systemen soepel."',
-    'home.review.button' => 'Lees meer verhalen in het Klantenboek ->',
+    'home.review.button' => 'Lees meer verhalen in het Klantenboek',
     'home.contact.title' => 'Klaar voor een website die past bij jouw bedrijf?',
     'home.contact.text' => 'Vraag een vrijblijvend voorstel op maat aan en ontdek wat Circle Solutions voor jouw organisatie kan doen.',
-    'home.contact.button' => 'Neem contact op ->',
+    'home.contact.button' => 'Neem contact op',
 
     // Over ons
     'about.hero.title' => 'Over ons',
@@ -87,7 +87,7 @@ return [
     'solutions.projects.label' => 'Cases',
     'solutions.projects.title' => 'Echte projecten, echte resultaten',
     'solutions.projects.subtitle' => 'Een greep uit het maatwerk dat we voor onze klanten hebben gebouwd.',
-    'solutions.projects.view' => 'Bekijk project &rarr;',
+    'solutions.projects.view' => 'Bekijk project',
     'solutions.projects.challenge' => 'De uitdaging',
     'solutions.projects.solution' => 'Onze oplossing',
     'solutions.projects.result' => 'Het resultaat',

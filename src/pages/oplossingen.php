@@ -75,7 +75,7 @@ include __DIR__ . '/../components/head.php';
                                 </div>
                                 <h3><?= $project['title'] ?></h3>
                                 <p><?= $project['text'] ?></p>
-                                <button type="button" popovertarget="project-<?= $i ?>" class="project-link"><?= t('solutions.projects.view') ?></button>
+                                <button type="button" popovertarget="project-<?= $i ?>" class="project-link"><?= t('solutions.projects.view') ?> <?php include __DIR__ . '/../components/icon-arrow.php'; ?></button>
                             </div>
                         </article>
                     <?php endforeach; ?>

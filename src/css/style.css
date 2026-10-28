@@ -221,3 +221,8 @@ select {
     max-width: 600px;
     margin: 0 auto 24px;
 }
+
+/* Pijl-icoon achter knoppen en links, zie components/icon-arrow.php */
+.icon-arrow {
+    vertical-align: middle;
+}
