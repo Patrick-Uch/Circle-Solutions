@@ -4,7 +4,7 @@ const fullReload = fullReloadModule.default || fullReloadModule;
 
 module.exports = defineConfig({
   plugins: [
-    fullReload(['**/*.php'], { root: __dirname }),
+    fullReload(['**/*.php', 'src/css/**/*.css'], { root: __dirname }),
   ],
   server: {
     host: '0.0.0.0',

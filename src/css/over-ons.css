@@ -1,0 +1,275 @@
+.over-ons-hero {
+    position: relative;
+    min-height: 400px;
+    overflow: hidden;
+}
+
+.over-ons-hero .container {
+    position: relative;
+    padding: 100px 160px;
+    scale: 1.5;
+}
+
+.over-ons-hero-text {
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 20px;
+    padding: 10px 50px 10px 20px;
+    width: 320px;
+    backdrop-filter: blur(5px); /* Voor een waas effect in de text box */
+}
+
+.over-ons-hero-text p {
+    color: var(--color-primary)
+}
+
+.over-ons-hero img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.over-ons-visie-missie-text {
+    display: flex;
+    justify-content: center;
+}
+
+.over-ons-visie-missie-text .over-ons-column-container {
+    width: 600px;
+    color: var(--color-gray);
+    padding: 30px;
+}
+
+.over-ons-visie-missie h2 {
+    color: var(--color-primary);
+    margin: 0;
+}
+
+.over-ons-waaromhoewat {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: var(--color-gray);
+}
+
+/* Voor het krijgen van een lijn tussen de icoontjes in waarom, hoe, wat */
+.over-ons-waaromhoewat .over-ons-column-container {
+    width: 330px;
+    flex: 1;
+    position: relative;
+}
+
+.over-ons-waaromhoewat p {
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.over-ons-waaromhoewat .over-ons-column-container:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    width: 100%;
+    height: 5px;
+    background-color: var(--color-primary-light);
+}
+
+/* Zodat er een cirkel om de icoontjes heen zit */
+.over-ons-waaromhoewat img {
+    position: relative;
+    z-index: 1;
+    display: block;
+    margin: 0 auto;
+    background-color: var(--color-primary);
+    padding: 15px;
+    border-radius: 50px;
+    margin-bottom: 15px;
+}
+
+.over-ons-waaromhoewat h2 {
+    padding-top: 10px;
+}
+
+.over-ons-kernwaarden {
+    min-height: 400px;
+    background-color: var(--color-primary-light);
+}
+
+.over-ons-kernwaarden .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.over-ons-kernwaarden h1 {
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 60px;
+}
+
+.over-ons-kernwaarden-text {
+    display: flex;
+}
+
+.over-ons-card {
+    margin: 10px;
+    padding: 20px 25px;
+    border-radius: 20px;
+    background-color: var(--color-white);
+    width: 350px;
+}
+
+.over-ons-kernwaarden-text h2 {
+    color: var(--color-primary-dark);
+    margin: 0;
+}
+
+.over-ons-kernwaarden-text img {
+    background-color: var(--color-primary);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.over-ons-geschiedenis {
+    height: 500px;
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Voor het bijsnijden van de foto, zonder padding zodat de afgeronde hoeken op de foto zelf zitten */
+.over-ons-geschiedenis img {
+    object-fit: cover;
+    width: 55%;
+    height: 80%;
+    border-radius: 20px;
+    max-width: 750px;
+}
+
+.over-ons-geschiedenis-container {
+    width: 35%;
+    max-width: 540px;
+    padding: 0 0 0 50px;
+}
+
+.over-ons-team {
+    min-height: 600px;
+    text-align: center;
+}
+
+.over-ons-team p {
+    color: var(--color-gray);
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
+
+.over-ons-team h4 {
+    color: var(--color-primary);
+    padding-top: 50px;
+    margin-bottom: 12px;
+}
+
+.over-ons-team h1 {
+    margin: 0;
+}
+
+.over-ons-team-photos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.over-ons-team-photo {
+    width: 250px;
+    background-color: var(--color-primary-light);
+    border-radius: 20px;
+}
+
+/* Zodat er een text box voor de namen onder de foto kan en alleen de bovenkant van de foto een border radius krijgt */
+.over-ons-team-photo img {
+    display: block;
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.over-ons-team-photo h3 {
+    margin: 12px;
+}
+
+.over-ons-team-photo p {
+    color: var(--color-primary-dark);
+}
+
+/* Voor mobiele en tablet weergave */
+@media (max-width: 960px) {
+    .over-ons-hero .container {
+        padding: 80px 24px;
+        scale: 1;
+    }
+
+    .over-ons-hero-text {
+        width: auto;
+    }
+
+    .over-ons-visie-missie-text,
+    .over-ons-waaromhoewat,
+    .over-ons-kernwaarden-text,
+    .over-ons-geschiedenis {
+        flex-direction: column;
+    }
+
+    .over-ons-visie-missie-text .over-ons-column-container {
+        width: auto;
+        padding: 20px 24px;
+    }
+
+    .over-ons-waaromhoewat .over-ons-column-container {
+        width: auto;
+        padding: 0 24px 24px;
+    }
+
+    /* Lijn tussen de icoontjes alleen als ze naast elkaar staan */
+    .over-ons-waaromhoewat .over-ons-column-container:not(:last-child)::after {
+        display: none;
+    }
+
+    .over-ons-card {
+        width: auto;
+    }
+
+    .over-ons-geschiedenis {
+        height: auto;
+        padding: 40px 24px;
+    }
+
+    .over-ons-geschiedenis img {
+        width: 100%;
+        height: 240px;
+        margin: 0 0 24px;
+    }
+
+    .over-ons-geschiedenis-container {
+        width: 100%;
+        padding: 0;
+    }
+
+    /* Teamfoto's naar de volgende regel in plaats van smaller worden */
+    .over-ons-team-photos {
+        flex-wrap: wrap;
+        padding: 0 24px 40px;
+    }
+}
+
+@media (max-width: 600px) {
+    .over-ons-hero {
+        min-height: 250px;
+    }
+}
