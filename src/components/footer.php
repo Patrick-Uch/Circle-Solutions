@@ -21,11 +21,11 @@
             <nav class="footer-navigation" aria-label="Footernavigatie">
                 <h3>Navigatie</h3>
                 <ul>
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="over-ons.php">Over ons</a></li>
-                    <li><a href="oplossingen.php">Oplossingen</a></li>
-                    <li><a href="klantenboek.php">Klantenboek</a></li>
-                    <li><a href="contact.php">Contact</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/src/pages/over-ons.php">Over ons</a></li>
+                    <li><a href="/src/pages/oplossingen.php">Oplossingen</a></li>
+                    <li><a href="/src/pages/klantenboek.php">Klantenboek</a></li>
+                    <li><a href="/src/pages/contact.php">Contact</a></li>
                 </ul>
             </nav>
 
