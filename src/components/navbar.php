@@ -2,11 +2,11 @@
 // Menu items: 'key' => ['label', 'href']
 // Als de key gelijk is aan $activePage krijgt de link de active class
 $navItems = [
-    'home' => ['Home', '/index.php'],
-    'over-ons' => ['Over ons', '/src/pages/over-ons.php'],
-    'oplossingen' => ['Oplossingen', '/src/pages/oplossingen.php'],
-    'klantenboek' => ['Klantenboek', '/src/pages/klantenboek.php'],
-    'contact' => ['Contact', '/src/pages/contact.php'],
+    'home' => [t('nav.home'), '/index.php?lang=' . $currentLang],
+    'over-ons' => [t('nav.about'), '/src/pages/over-ons.php?lang=' . $currentLang],
+    'oplossingen' => [t('nav.solutions'), '/src/pages/oplossingen.php?lang=' . $currentLang],
+    'klantenboek' => [t('nav.customerstories'), '/src/pages/klantenboek.php?lang=' . $currentLang],
+    'contact' => [t('nav.contact'), '/src/pages/contact.php?lang=' . $currentLang],
 ];
 ?>
 <header class="navbar">
@@ -31,10 +31,10 @@ $navItems = [
                 <?php endforeach; ?>
             </ul>
             <div class="nav-actions">
-                <a href="#" class="lang-switch">
-                    <img src="/src/img/001-united-kingdom.png" alt="English">
+                <a href="?lang=<?= $nextLang ?>" class="lang-switch">
+                    <img src="/src/img/<?= $nextLang ?>.png" alt="English">
                 </a>
-                <a href="/src/pages/contact.php" class="btn">Plan een kennismaking</a>
+                <a href="/src/pages/contact.php" class="btn"><?= t('nav.cta') ?></a>
             </div>
         </nav>
     </div>
