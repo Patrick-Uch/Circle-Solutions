@@ -3,6 +3,7 @@ $pageTitle = 'nav.home';
 $activePage = 'home';
 include __DIR__ . '/src/components/head.php';
 ?>
+
 <body>
     <?php include __DIR__ . '/src/components/navbar.php'; ?>
     <link rel="stylesheet" href="/src/css/index.css">
@@ -38,7 +39,7 @@ include __DIR__ . '/src/components/head.php';
                     </div>
                 </div>
             </div>
-        </section> 
+        </section>
         <section class="home-dots">
             <img src="/src/img/index/dots.png" alt="D.O.T.S.">
             <div class="home-dots-container">
@@ -57,4 +58,6 @@ include __DIR__ . '/src/components/head.php';
         <?php include __DIR__ . '/src/components/contact-cta.php'; ?>
     </main>
 </body>
+<?php include __DIR__ . '/src/components/footer.php'; ?>
+
 </html>
