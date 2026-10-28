@@ -8,9 +8,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= $pageTitle ?> - Circle Solutions</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="/src/fonts/test-calibre-regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="/src/fonts/test-calibre-bold.woff2" as="font" type="font/woff2" crossorigin>
     <link rel="icon" href="/src/img/favicon.ico">
     <script type="module" src="http://localhost:5173/@vite/client"></script>
     <script type="module" src="http://localhost:5173/src/js/main.js"></script>

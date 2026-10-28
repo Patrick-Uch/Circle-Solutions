@@ -67,6 +67,7 @@
 .solutions-hero p {
     margin: 0;
     line-height: 1.6;
+    color: var(--color-primary);
 }
 
 /* Onze oplossingen */
