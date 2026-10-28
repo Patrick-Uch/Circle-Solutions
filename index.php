@@ -54,13 +54,7 @@ include __DIR__ . '/src/components/head.php';
                 <a href="/src/pages/klantenboek.php" class="btn"><?= t('home.review.button') ?></a>
             </div>
         </section>
-        <section class="home-contact">
-            <div class="container">
-                <h1><?= t('home.contact.title') ?></h1>
-                <p><?= t('home.contact.text') ?></p>
-                <a href="/src/pages/contact.php" class="btn"><?= t('home.contact.button') ?></a>
-            </div>
-        </section>
+        <?php include __DIR__ . '/src/components/contact-cta.php'; ?>
     </main>
 </body>
 </html>

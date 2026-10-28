@@ -116,6 +116,8 @@ include __DIR__ . '/../components/head.php';
                 <a href="/src/img/oplossingen/whitepaper.docx" download class="btn"><?= t('solutions.whitepaper.button') ?></a>
             </div>
         </section>
+
+        <?php include __DIR__ . '/../components/contact-cta.php'; ?>
     </main>
 </body>
 </html>
