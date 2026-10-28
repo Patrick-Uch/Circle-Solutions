@@ -71,7 +71,7 @@ include __DIR__ . '/../components/head.php';
                 <p class="form-subtitle">Ben jij klant bij Circle Solutions? Vertel ons hoe wij jouw organisatie hebben
                     geholpen.</p>
 
-                <form action="/src/actions/klantenboek-form.php" method="post" class="form-container">
+                <form action="/src/functions/klantenboek-form.php" method="post" class="form-container">
                     <label for="naam">Naam</label>
                     <input type="text" id="naam" name="naam" placeholder="Jouw naam" required>
 
