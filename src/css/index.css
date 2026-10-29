@@ -86,7 +86,7 @@
 /* Voor het bijsnijden van de afbeelding */
 .home-dots img {
     object-fit: cover;
-    width: 100%;
+    width: 55%;
     height: 80%;
     margin: 0 0 0 50px;
     border-radius: 20px;
@@ -126,34 +126,6 @@
     border: solid 2px var(--color-primary-dark);
 }
 
-.home-contact {
-    background-color: var(--color-text);
-    text-align: center;
-    color: var(--color-primary);
-    min-height: 300px;
-    display: flex;
-    align-items: center;
-}
-
-.home-contact h1 {
-    color: var(--color-white);
-}
-
-.home-contact .btn {
-    color: var(--color-primary);
-    background: white;
-}
-
-.home-contact .container {
-    width: 100%;
-}
-
-.home-contact p {
-    max-width: 600px;
-    margin: 0 auto 24px;
-}
-
-/* Voor mobiele en tablet weergave */
 @media (max-width: 960px) {
     .home-hero .container {
         padding: 80px 24px;
