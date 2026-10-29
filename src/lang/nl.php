@@ -14,6 +14,15 @@ return [
     'common.close' => 'Sluiten',
     'common.cta' => 'Plan een kennismaking',
 
+    // Footer
+    'footer.tagline' => 'Strategie, design en uitvoering voor slimme digitale oplossingen.',
+    'footer.nav.label' => 'Footernavigatie',
+    'footer.nav.title' => 'Navigatie',
+    'footer.contact.title' => 'Contact',
+    'footer.contact.location' => 'Amersfoort, Nederland',
+    'footer.legal.terms' => 'Algemene voorwaarden',
+    'footer.legal.privacy' => 'Privacybeleid',
+
     // Home
     'home.hero.title' => 'Just connect the <b>dots</b>.',
     'home.hero.text' => 'Maatwerksoftware die complexe processen simpel maakt. Zonder poespas, mét resultaat.',

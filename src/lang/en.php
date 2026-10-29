@@ -14,6 +14,15 @@ return [
     'common.close' => 'Close',
     'common.cta' => 'Schedule a meeting',
 
+    // Footer
+    'footer.tagline' => 'Strategy, design and execution for smart digital solutions.',
+    'footer.nav.label' => 'Footer navigation',
+    'footer.nav.title' => 'Navigation',
+    'footer.contact.title' => 'Contact',
+    'footer.contact.location' => 'Amersfoort, the Netherlands',
+    'footer.legal.terms' => 'Terms and conditions',
+    'footer.legal.privacy' => 'Privacy policy',
+
     // Home
     'home.hero.title' => 'Just connect the <b>dots</b>.',
     'home.hero.text' => 'Custom software that makes complex processes simple. No fuss, just results.',
