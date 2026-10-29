@@ -1,114 +1,118 @@
 <?php
-$pageTitle = 'nav.about';
+$pageTitle = 'Over ons';
 $activePage = 'over-ons';
 include __DIR__ . '/../components/head.php';
 ?>
 
 <body>
-    <link rel="stylesheet" href="/src/css/over-ons.css">
-
     <?php include __DIR__ . '/../components/navbar.php'; ?>
-
+    <link rel="stylesheet" href="/src/css/over-ons.css">
     <main>
         <section class="over-ons-hero">
-            <img src="/src/img/over-ons/hero.png" alt="">
+            <img src="/src/img/over-ons/hero.png" alt="Over ons">
             <div class="container">
                 <div class="over-ons-hero-text">
-                    <h1><?= t('about.hero.title') ?></h1>
-                    <p><?= t('about.hero.text') ?></p>
+                    <h1>Over ons</h1>
+                    <p>Sinds 2005 bouwen we aan software die processen simpeler maakt, niet ingewikkelder.</p>
                 </div>
             </div>
         </section>
         <section class="over-ons-visie-missie">
             <div class="over-ons-visie-missie-text">
                 <div class="over-ons-column-container">
-                    <h2><?= t('about.vision.title') ?></h2>
-                    <p><?= t('about.vision.text') ?></p>
+                    <h2>Visie</h2>
+                    <p>Wij geloven dat technologie mensen moet ontzorgen. Onze visie is een wereld waarin software intuïtief aanvoelt, zodat bedrijven kunnen focussen op wat écht telt.</p>
                 </div>
                 <div class="over-ons-column-container">
-                    <h2><?= t('about.mission.title') ?></h2>
-                    <p><?= t('about.mission.text') ?></p>
+                    <h2>Missie</h2>
+                    <p>Praktische, betrouwbare maatwerksoftware bouwen die aansluit op de dagelijkse praktijk van onze klanten: eenvoudig te gebruiken, zonder overbodige franje.</p>
                 </div>
             </div>
-            <div class="over-ons-waaromhoewat">
+            <div class="over-ons-waaromhoewat">    
                 <div class="over-ons-column-container">
-                    <img src="/src/img/over-ons/icons/target.svg" alt="<?= t('about.why.title') ?>">
-                    <h2><?= t('about.why.title') ?></h2>
-                    <p><?= t('about.why.text') ?></p>
+                    <img src="/src/img/over-ons/icons/target.svg" alt="Waarom">
+                    <h2>Waarom</h2>
+                    <p>Wij vinden dat dagelijkse taken probleemloos moeten verlopen.</p>
                 </div>
                 <div class="over-ons-column-container">
-                    <img src="/src/img/over-ons/icons/settings.svg" alt="<?= t('about.how.title') ?>">
-                    <h2><?= t('about.how.title') ?></h2>
-                    <p><?= t('about.how.text') ?></p>
+                    <img src="/src/img/over-ons/icons/settings.svg" alt="Hoe">
+                    <h2>Hoe</h2>
+                    <p>Door software te ontwikkelen die het leven makkelijker maakt.</p>
                 </div>
                 <div class="over-ons-column-container">
-                    <img src="/src/img/over-ons/icons/package.svg" alt="<?= t('about.what.title') ?>">
-                    <h2><?= t('about.what.title') ?></h2>
-                    <p><?= t('about.what.text') ?></p>
+                    <img src="/src/img/over-ons/icons/package.svg" alt="Wat">
+                    <h2>Wat</h2>
+                    <p>Softwareoplossingen die passen bij het individuele bedrijf.</p>
                 </div>
             </div>
         </section>
         <section class="over-ons-kernwaarden">
-            <h1><?= t('about.values.title') ?></h1>
+            <h1>Onze kernwaarden</h1>
             <div class="container">
                 <div class="over-ons-kernwaarden-text">
                     <div class="over-ons-card">
-                        <img src="/src/img/over-ons/icons/leaf.svg" alt="<?= t('about.values.simplicity.title') ?>">
-                        <h2><?= t('about.values.simplicity.title') ?></h2>
-                        <p><?= t('about.values.simplicity.text') ?></p>
+                        <img src="/src/img/over-ons/icons/leaf.svg" alt="Eenvoud">
+                        <h2>Eenvoud</h2>
+                        <p>We laten weg wat niet nodig is, zodat overblijft wat werkt.</p>
                     </div>
                     <div class="over-ons-card">
-                        <img src="/src/img/over-ons/icons/shield.svg" alt="<?= t('about.values.trust.title') ?>">
-                        <h2><?= t('about.values.trust.title') ?></h2>
-                        <p><?= t('about.values.trust.text') ?></p>
+                        <img src="/src/img/over-ons/icons/shield.svg" alt="Vertrouwen">
+                        <h2>Vertrouwen</h2>
+                        <p>We bouwen langdurige relaties op basis van kwaliteit en duidelijkheid.</p>
                     </div>
                     <div class="over-ons-card">
-                        <img src="/src/img/over-ons/icons/settings.svg" alt="<?= t('about.values.functionality.title') ?>">
-                        <h2><?= t('about.values.functionality.title') ?></h2>
-                        <p><?= t('about.values.functionality.text') ?></p>
+                        <img src="/src/img/over-ons/icons/settings.svg" alt="Functionaliteit">
+                        <h2>Functionaliteit</h2>
+                        <p>Elke functie heeft een doel en sluit aan op de praktijk van de gebruiker.</p>
                     </div>
                 </div>
             </div>
         </section>
         <section class="over-ons-geschiedenis">
-            <img src="/src/img/over-ons/kantoor.png" alt="<?= t('about.history.alt') ?>">
-            <div class="over-ons-geschiedenis-container">
-                <h1><?= t('about.history.title') ?></h1>
-                <p><?= t('about.history.text1') ?></p>
-                <p><?= t('about.history.text2') ?></p>
-                <p><?= t('about.history.text3') ?></p>
+            <img src="/src/img/over-ons/kantoor.png" alt="Kantoor">
+            <div class="container">
+                <h1>Onze geschiedenis</h1>
+                <p><b>In 2005</b> richtten Raymond Jacobs en Elleke Smit Circle Solutions op vanuit een klein kantoor in Amersfoort. Wat begon met maatwerksoftware voor de logistieke sector, groeide uit tot oplossingen voor zorg, onderwijs en meer.</p>
+                <p><b>In 2018</b> lanceerde het bedrijf zijn eigen productlijn, Circle D.O.T.S.: een modulair platform dat bedrijven helpt hun interne processen te stroomlijnen.</p>
+                <p>Inmiddels heeft Circle Solutions 40+ medewerkers en klanten in Nederland, België en Duitsland. <b>In 2025</b> bereidt het bedrijf zich voor op een internationale uitbreiding, onder leiding van Chief Applications Officer Sarah Kleinn.</p>
             </div>
         </section>
         <section class="over-ons-team">
             <div class="container">
-                <h4><?= t('about.team.label') ?></h4>
-                <h1><?= t('about.team.title') ?></h1>
-                <p><?= t('about.team.subtitle') ?></p>
+                <h4>ONS TEAM</h4>
+                <h1>Maak kennis met het team</h1>
+                <p>De mensen achter Circle Solutions: samen verbinden we de puntjes.</p>
             </div>
             <div class="over-ons-team-photos">
                 <div class="over-ons-team-photo">
-                    <img src="/src/img/over-ons/team/ceo.png" alt="Raymond Jacobs">
+                    <img src="/src/img/over-ons/team/ceo.png" alt="CEO">
                     <h3>Raymond Jacobs</h3>
-                    <p><?= t('about.team.ceo') ?></p>
+                    <p>CEO</p>
                 </div>
                 <div class="over-ons-team-photo">
-                    <img src="/src/img/over-ons/team/it-manager.png" alt="Elleke Smit">
+                    <img src="/src/img/over-ons/team/it-manager.png" alt="IT Manager">
                     <h3>Elleke Smit</h3>
-                    <p><?= t('about.team.itmanager') ?></p>
-                </div>
+                    <p>IT Manager</p>
+                </div>    
                 <div class="over-ons-team-photo">
-                    <img src="/src/img/over-ons/team/development-lead.png" alt="Sarah Kleinn">
+                    <img src="/src/img/over-ons/team/development-lead.png" alt="Development lead">
                     <h3>Sarah Kleinn</h3>
-                    <p><?= t('about.team.cao') ?></p>
-                </div>
+                    <p>CAO</p>
+                </div>    
                 <div class="over-ons-team-photo">
-                    <img src="/src/img/over-ons/team/ux-designer.png" alt="John Doe">
+                    <img src="/src/img/over-ons/team/ux-designer.png" alt="UX Designer">
                     <h3>John Doe</h3>
-                    <p><?= t('about.team.uxdesigner') ?></p>
-                </div>
+                    <p>UX Designer</p>
+                </div>        
             </div>
         </section>
-        <?php include __DIR__ . '/../components/contact-cta.php'; ?>
+        <section class="over-ons-contact">
+            <div class="container">
+                <h1>Klaar voor een website die past bij jouw bedrijf?</h1>
+                <p>Vraag een vrijblijvend voorstel op maat aan en ontdek wat Circle Solutions voor jouw organisatie kan doen.</p>
+                <a href="/src/pages/contact.php" class="btn">Neem contact op →</a>
+            </div>
+        </section>
     </main>
     <?php include __DIR__ . '/../components/footer.php'; ?>
 </body>
