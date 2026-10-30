@@ -1,0 +1,169 @@
+.home-hero {
+    position: relative;
+    min-height: 650px;
+    overflow: hidden;
+}
+
+.home-hero img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Zodat de tekst in de hero op de juiste plek komt te staan */
+.home-hero .container {
+    position: relative;
+    padding: 180px 200px;
+    scale: 1.5;
+}
+
+/* Zodat de kleur van het woord "dots" anders is */
+.home-hero b {
+    color: var(--color-primary);
+}
+
+.home-hero-text {
+    max-width: 300px;
+    padding-bottom: 20px;
+    color: var(--color-primary);
+}
+
+.home-waarwevoorstaan {
+    min-height: 400px;
+}
+
+.home-waarwevoorstaan .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-waarwevoorstaan h1 {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.home-waarwevoorstaan-text {
+    display: flex;
+}
+
+.home-card {
+    margin: 10px;
+    padding: 20px 25px;
+    border-radius: 20px;
+    background-color: var(--color-primary-light);
+    width: 350px;
+}
+
+.home-waarwevoorstaan-text h2 {
+    color: var(--color-primary-dark);
+    margin: 0;
+}
+
+.home-waarwevoorstaan-text img {
+    background-color: var(--color-primary);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.home-dots {
+    background-color: var(--color-primary);
+    color: var(--color-white);
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 500px;
+}
+
+.home-dots-container {
+    width: 30%;
+    padding: 0 0 0 50px;
+}
+
+/* Voor het bijsnijden van de afbeelding */
+.home-dots img {
+    object-fit: cover;
+    width: 55%;
+    height: 80%;
+    margin: 0 0 0 50px;
+    border-radius: 20px;
+    max-width: 750px;
+    inset: 0;
+}
+
+/* Zodat de styling van de link overeen komt met die van de buttons en de kleur van de link altijd wit is en niet verandert */
+.home-dots a {
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+.home-dots a:visited {
+    color: var(--color-white);
+}
+
+.home-reviews {
+    background-color: var(--color-primary-light);
+    text-align: center;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+}
+
+.home-reviews .container {
+    width: 600px;
+}
+
+.home-reviews p {
+    color: var(--color-gray);
+}
+
+.home-reviews .btn {
+    color: var(--color-primary-dark);
+    background: var(--color-primary-light);
+    border: solid 2px var(--color-primary-dark);
+}
+
+@media (max-width: 960px) {
+    .home-hero .container {
+        padding: 80px 24px;
+        scale: 1;
+    }
+
+    .home-waarwevoorstaan-text,
+    .home-dots {
+        flex-direction: column;
+    }
+
+    .home-card {
+        width: auto;
+    }
+
+    .home-dots {
+        height: auto;
+        padding: 40px 24px;
+    }
+
+    .home-dots img {
+        width: 100%;
+        height: 300px;
+        margin: 0 0 24px;
+    }
+
+    .home-dots-container {
+        width: 100%;
+        padding: 0;
+    }
+
+    .home-reviews .container {
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .home-hero {
+        min-height: 450px;
+    }
+}
